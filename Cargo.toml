@@ -1,0 +1,35 @@
+[package]
+name = "redtoken"
+version = "0.1.0"
+edition = "2021"
+description = "Honeytoken Injector & Intrusion Detector"
+
+[dependencies]
+# CLI
+clap = { version = "4.4", features = ["derive"] }
+
+# File handling
+regex = "1.10"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+serde_yaml = "0.9"
+tokio = { version = "1.36", features = ["full"] }
+
+# Web
+axum = { version = "0.7", features = ["macros"] }
+warp = "0.3"
+hyper = { version = "1.0", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+
+# Email
+lettre = { version = "0.11", features = ["tokio1", "tokio1-native-tls", "builder", "smtp-transport"] }
+
+# Utilities
+uuid = { version = "1.7", features = ["v4", "serde"] }
+rand = "0.8"
+log = "0.4"
+env_logger = "0.10"
+anyhow = "1.0"
+thiserror = "1.0"
+async-trait = "0.1"
+chrono = "0.4" 

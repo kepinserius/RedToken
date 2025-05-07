@@ -1,0 +1,2 @@
+fn(axum::extract::State<Arc<AppState>>) -> impl std::future::Future<Output = impl IntoResponse> {list_tokens}
+fn(axum::extract::State<Arc<AppState>>) -> impl std::future::Future<Output = impl IntoResponse> {list_tokens}: Handler<_, _>
