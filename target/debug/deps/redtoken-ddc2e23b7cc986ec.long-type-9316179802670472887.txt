@@ -1,2 +1,0 @@
-fn(axum::extract::State<Arc<AppState>>, Query<TokenQuery>) -> impl std::future::Future<Output = impl IntoResponse> {check_token}
-fn(axum::extract::State<Arc<AppState>>, Query<TokenQuery>) -> impl std::future::Future<Output = impl IntoResponse> {check_token}: Handler<_, _>
