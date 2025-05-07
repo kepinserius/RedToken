@@ -1,0 +1,43 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Generated files
+*.o
+*.so
+*.rlib
+*.dll
+*.dylib
+
+# Release builds
+/release/
+
+# Backup files
+*.bak
+*.backup
+*~
+.*.swp
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+.cargo/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# RedToken specific files
+/backups/
+/tokens.db
+config.json
+*.log
+/logs/ 
